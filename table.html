@@ -1,0 +1,43 @@
+<html>
+<head>
+
+<style>
+      table{border:3px outset blue;border-collapse:collapse;}/*dotted,dashed,inset,outset*/
+	  th,td{
+	        border:1px solid blue;
+	        padding:12px;
+		    text-align:center;
+			} 
+	  caption{
+	          font-size:22px;
+	          color:blue;
+			 }
+	 th{background-color:yellow;}
+	
+   	/* tr:nth-child(2){background-color:pink;} */
+	/* tr:nth-child(3){background-color:red;} */
+	
+	
+	   tr:nth-child(odd){background-color:pink;}
+	   tr:nth-child(even){background-color:#FFD2A4;}
+	   
+	   
+	 
+</style>
+</head>
+
+<body>
+
+  <table>
+       <caption>My Data</caption>
+        <tr> <th> Sl.No </th> <th>Name </th> <th>Age </th> <th>Mobile </th>  </tr>
+        <tr> <td> 1     </td> <td>Raja </td> <td>24 </td> <td>87676   </td>  </tr>
+        <tr> <td>2      </td> <td>Anbu </td> <td rowspan="2">25 </td> <td>6757465 </td>  </tr>
+        <tr> <td>3      </td> <td>Kumar </td><!--<td>25 </td>--> <td>8652387 </td>  </tr>
+        <tr> <td>4      </td> <td>Ravi </td> <td>22 </td> <td>7656757 </td>  </tr>
+  
+  </table>
+
+</body>
+
+</html>
