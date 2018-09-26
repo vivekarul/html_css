@@ -1,0 +1,43 @@
+<html>
+<style>
+*{box-sizing:border-box;}
+  .container{border:0px solid red;width:1200px;height:590px;margin:auto;
+  background-color:#EAF2F0;padding:6px;}
+  .row1{border:0px solid red;width:1190px;height:80px;padding:1px;}
+  .row2{border:0px solid red;width:1190px;height:480px;}
+  .b1{border:0px solid black;width:500px;height:80px;float:left;}
+  .b2{border:0px solid black;width:230px;height:80px;float:left;
+  padding-top:30px;
+  padding-left:40px;}
+  .b3{border:0px solid black;width:210px;height:80px;float:left;padding-top:30px;
+  padding-left:40px;}
+  .b4{border:0px solid black;width:210px;height:80px;float:left;padding-top:50px;
+  padding-left:10px;}
+  .c1{border:1px solid black;width:590px;height:470px;float:left;}
+  .c2{border:1px solid black;width:590px;height:470px;float:left;}
+  h2{color:white;font-size:40px;text-align:center;margin-top:-1px;}
+</style>
+
+<body>
+	<div class="container"> 
+				<div class="row1" style="background-color:#2762F7;" >
+							<div class="b1" > <h2>facebook</h2>  </div> 
+							<div class="b2" > <span style="color:white;">Email or Phone </span><input> </input>
+
+							</div> 
+							<div class="b3" > <span style="color:white;"> Password </span><input> </input>
+							
+							</div> 
+							<div class="b4"> <button style="background-color:blue;"> <span style="color:white;">  login </span> </button>
+							</div> 
+							
+							
+							
+				</div>
+	<div class="row2">
+					<div class="c1"> </div>
+					<div class="c2"> </div>
+		</div>						
+						</div>
+</body>
+</html>
