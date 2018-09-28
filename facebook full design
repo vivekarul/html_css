@@ -1,0 +1,99 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+*{box-sizing:border-box;}
+  .container{border:0px solid red;width:1200px;height:590px;margin:auto;
+  background-color:#EAF2F0;padding:6px;}
+  .row1{border:0px solid red;width:1190px;height:80px;}
+  .row2{border:0px solid red;width:1190px;height:480px;}
+  .b1{border:0px solid black;width:500px;height:80px;float:left;}
+  .b2{border:0px solid black;width:230px;height:80px;float:left;
+  padding-top:30px;
+  padding-left:40px;}
+  .b3{border:0px solid black;width:210px;height:80px;float:left;padding-top:30px;
+  padding-left:40px;}
+  .b4{border:0px solid black;width:210px;height:80px;float:left;padding-top:50px;
+  padding-left:10px;}
+  .c1{border:0px solid black;width:590px;height:500px;float:left;}
+  .c2{border:0px solid black;width:590px;height:500px;float:left;}
+  h2{color:white;font-size:40px;text-align:center;margin-top:+3px;font-family:verdana;}
+  k1{width:500px;height:80px;}
+  select{width:100px;height:40px;}
+  input[type="radio"]{width:20px;height:20px;}
+  input{width:80%;height:30px;}
+  
+  td{width:400px;height:60px;}
+  @media  screen and (max-width: 450px){
+    body {
+        background-color: pink;}
+	
+	 .b1{width:100%;padding:0px;background-color:blue;}
+	 .b2{width:100%;color:red;padding:0px;}
+	 .b3{width:100%;padding:0px;}
+	 .b4{width:100%;padding:0px;}
+	 input{width:80%;height:60px;}
+	 button{width:80%;height:60px;}
+	 span{color:blue;}
+	 .c1{width:100%;}
+	 .c2{width:100%;}
+	 
+	}
+  
+</style>
+
+<body>
+	<div class="container"> 
+				<div class="row1" style="background-color:#2762F7;" >
+		<div class="b1" > <h2 style="font-family:verdana">facebook</h2>  </div> 
+	<div class="b2" > <span>Email or Phone </span><input placeholder="Enter name" required > 
+	</input>
+
+		</div> 
+			<div class="b3" > <span> Password </span>
+			<input type="password" placeholder="password"
+		> </input>
+							
+			</div> 
+			<div class="b4"> <button style="background-color:blue;"> 
+			<span style="color:white;"> Sign in </span> </button>
+		</div> 
+							
+							
+							
+				</div>
+	<div class="row2">
+					<div class="c1"> <img src="images\image 1.JPG" width="589px" height="500px"> </img>  </div>
+					<div class="c2"> <h2 style="color:black" > Create an account </h2> 
+					<h3 style="font-family:verdana">It's free and always will be.</h3> 
+					<table> 
+					<tr> <td> <input placeholder="First name"> </input> </td> 
+					<td><input placeholder="surname" > </input>  </td> </tr>
+					<tr> <td colspan="2" ><input placeholder="Mobile  unmber or email address" > </input>    </td>  </tr>
+					<tr> <td colspan="2"><input placeholder="New password" > </input>  </td></tr>
+					<tr> <td colspan="2">Birthday </td></tr>
+					<tr> <td colspan="2"> <select> <option>1 </option> 
+			<option> 2</option><option>3 </option> <option>4 </option> <option>5 </option> 		
+			<option> 6</option><option>7 </option> <option>8 </option> <option>9 </option> 		
+					
+					</select>
+<select> <option>June </option> 
+			<option> july</option><option>Aug </option> <option>Sep </option> <option>Oct </option> 		
+			<option> Nov</option><option>Dec </option> <option>Jan </option> <option>Fed </option> 		
+					
+					</select>
+<select> <option>1999 </option> 
+			<option> 2000</option><option>2001 </option> <option>2002 </option> <option>2003 </option> 		
+			<option> 2004</option><option>2005 </option> <option>2006 </option> <option>2007</option> 		
+					
+					</select>					</td></tr>
+					<tr> <td colspan="2">Male:<input type="radio" name="x"></input>
+                                        Female:<input type="radio" name="x"></input> </td></tr>
+					<tr> <td colspan="2"> </td></tr>
+					<tr> <td colspan="2"> </td></tr>
+				</table>
+		</div>						
+						</div>
+</body>
+</html>
