@@ -1,0 +1,80 @@
+<html>
+<head>
+
+<link rel="stylesheet" 
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<style>
+.bgcolor{background-color:#3D3B99;height:100px;}
+.height{height:100px;}
+.white{color:white;}
+.radius{border-radius:3px;}
+</style>
+<body>
+	<div class="container-fluid"> 
+				<div class="row"  >
+		<div class="col-sm-5 bgcolor height white " style="padding-top:5px;"		> <h2 style="font-family:verdana ">facebook</h2>  </div> 
+	<div class="col-sm-3 height bgcolor white " style="padding-top:27px;"> <span>Email or Phone </span><input required > 
+	</input>
+
+		</div> 
+			<div class="col-sm-2 height bgcolor white" style="padding-top:8px;" > <span> Password </span>
+			<input type="password"
+		> </input>
+							
+			</div> 
+			<div class="col-sm-2 height bgcolor white" style="padding-top:27px;"> <button style="background-color:#3D3B99;"> 
+			<span style="color:white;"> Sign in </span> </button>
+		</div> 
+							
+							
+							
+				</div>
+	<div class="row" style="background-color:#EAF2F0">
+					<div class="col-sm-6"> <img src="images\image 1.JPG" width="650px" height="550px"> </img>  </div>
+					<div class="col-sm-6"> <h2 style="color:black" > Create an account </h2> 
+					<h3 style="font-family:verdana">It's free and always will be.</h3> 
+					<table> 
+					<tr> <td><input placeholder="First name" class="radius"> </input> </td> 
+					<td><input placeholder="surname" class="radius" > </input>  </td> </tr>
+					<tr> <td colspan="2" height="50px"><input placeholder="Mobile  unmber or email address" class="radius" > </input>    </td>  </tr>
+					<tr> <td colspan="2" height="50px"><input placeholder="New password" class="radius"> </input>  </td></tr>
+					<tr> <td colspan="2" height="40px" class="radius">Birthday </td></tr>
+					<tr> <td colspan="2" height="30px" class="radius"> <select> <option>1 </option> 
+			<option> 2</option><option>3 </option> <option>4 </option> <option>5 </option> 		
+			<option> 6</option><option>7 </option> <option>8 </option> <option>9 </option> 		
+					
+					</select>
+<select> <option>June </option> 
+			<option> july</option><option>Aug </option> <option>Sep </option> <option>Oct </option> 		
+			<option> Nov</option><option>Dec </option> <option>Jan </option> <option>Fed </option> 		
+					
+					</select>
+<select> <option>1999 </option> 
+			<option> 2000</option><option>2001 </option> <option>2002 </option> <option>2003 </option> 		
+			<option> 2004</option><option>2005 </option> <option>2006 </option> <option>2007</option> 		
+					
+					</select>					</td></tr>
+					<tr> <td colspan="2">Male:<input type="radio" name="x"></input>
+                                        Female:<input type="radio" name="x"></input> </td></tr>
+					<tr> <td colspan="2"> </td></tr>
+					<tr> <td colspan="2"> </td></tr>
+				</table>
+		<div> <p>By clicking Sign Up, you agree to our <span style="color:blue"> Terms,
+		Data Policy </span> and Cookie Policy. You may receive 
+		SMS notifications from us and can opt out at any time.</p> 
+		</div>
+		<div> </div>
+		<div> </div>
+		</div>						
+		
+
+
+		</div>
+		
+		
+
+		
+</div>
+</body>
+</html>
