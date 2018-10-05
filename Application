@@ -1,0 +1,72 @@
+<html>
+<style>
+       table{border:4px solid blue;border-collapse:collapse;
+	         background-color:#CCFFA4;}
+	   td{border:1px solid green;padding:5px;}
+	   input{width:350px;height:30px;background-color:#FFF3A4;color:blue;
+	          font-size:20px;}
+	   select{width:350px;height:30px;}
+	   button{width:350px;height:30px;background-color:blue;color:white;}
+	   input[type="radio"]{width:17px;height:20px;}
+	   input[type="checkbox"]{width:17px;height:20px;}
+	   
+	   label{font-size:20px;color:blue;text-align:left;}
+ 
+</style>
+
+<body>
+     <form>
+	 
+	       <table align="center">
+		   
+		   <colgroup>
+		         <col style="background-color:#FFA7A4;width:150px;">
+		         <col style="background-color:#AAFFA4;">
+		   
+		   </colgroup>
+		   
+		   
+<tr>  <td><label>Name:</label></td>  <td><input type="text" required 
+ placeholder="Enter name"></input></td>  </tr>
+<tr><td><label>Email:</label></td>  <td><input type="email" required></input></td>  </tr>
+<tr>  <td><label>Username:</label></td>  <td><input type="text" required></input></td>  </tr>
+<tr>  <td><label>Password:</label></td>  <td><input type="password" required></input></td>  </tr>
+<tr>  <td><label>Mobile:</label></td>  <td><input type="number" required></input></td>  </tr>
+<tr>  <td><label>DOB:</label></td>  <td><input type="date" required></input></td>  </tr>
+<tr>  <td><label>Gender:</label></td>  <td>
+                                        Male:<input type="radio" name="x"></input>
+                                        Female:<input type="radio" name="x"></input>
+
+                                        </td>  </tr>
+<tr>  <td><label>Languages:</label></td>  <td>
+                                        Tamil:<input type="checkbox" ></input>
+                                        English:<input type="checkbox" ></input>
+                                        Malayalam:<input type="checkbox"></input>
+
+                                        </td>  </tr>
+										
+<tr>  <td><label>Courses:</label></td>  <td>
+                                           <select> <!-- multiple -->
+										         <option>HTML</option>   
+										         <option>CSS</option>   
+										         <option>PHP</option>   
+										         <option>SQL</option>   
+										         <option>JAVA</option>   
+										   
+										   </select>
+
+                                          </td>  </tr>
+										
+										
+<tr>  <td colspan="2"><button style="margin-left:100px;">submit</button></td>  </tr>
+	     
+	    
+	 
+	      </table>
+	 
+	 </form>
+
+
+</body>
+
+</html>
