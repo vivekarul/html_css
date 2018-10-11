@@ -1,0 +1,94 @@
+<html>
+
+
+<body>
+     <table>
+	       <tr><td colspan="3"> <input id="i1"></td> </tr>
+		   <tr> 
+				<td> <button onclick="send(1)">1</button></td>
+				<td> <button onclick="send(2)">2</button></td>
+				<td> <button onclick="send(3)">3</button></td>
+		    </tr>
+			<tr> 
+				<td> <button onclick="send(4)">4</button></td>
+				<td> <button onclick="send(5)">5</button></td>
+				<td> <button onclick="send(6)">6</button></td>
+		    </tr>
+			<tr> 
+				<td> <button onclick="send(7)">7</button></td>
+				<td> <button onclick="send(8)">8</button></td>
+				<td> <button onclick="send(9)">9</button></td>
+		    </tr>
+			<tr> 
+				<td> <button onclick="send(0)">0</button></td>
+				<td> <button onclick="send('+')">+</button></td>
+				<td> <button onclick="send('-')">-</button></td>
+		    </tr>
+			<tr> 
+				<td> <button onclick="send('*')">*</button></td>
+				<td> <button onclick="send('/')">/</button></td>
+				<td> <button onclick="send('=')">=</button></td>
+		    </tr>
+			<tr> 
+				<td> <button onclick="send('log')">log</button></td>
+				
+		    </tr>
+			
+	   
+	 </table>
+	 
+	 
+	 
+	 <script>
+	         function send(num)
+			 {
+			     x=document.getElementById("i1");
+				 
+				 switch(num)
+				 {                        //"1"+"2"="12"  ==> "12"+"3"="123"
+				   case 1: x.value+=num; break; //"1"+"1"="11" //x=x+1
+				   case 2: x.value+=num; break; //"11"+"3" ="113"
+				   case 3: x.value+=num; break;
+				   case 4: x.value+=num; break;
+				   case 5: x.value+=num; break;
+				   case 6: x.value+=num; break;
+				   case 7: x.value+=num; break;
+				   case 8: x.value+=num; break;
+				   case 9: x.value+=num; break;
+				   case 0: x.value+=num; break;
+				   
+				   case '+': x.value+=num; break;
+				   case '-': x.value+=num; break;
+				   case '*': x.value+=num; break;
+				   case '/': x.value+=num; break;
+				   				   
+				   case 'log': 
+				   
+				    get=x.value;
+					result = eval(Math.log10(get));
+				    x.value=result;
+
+				   break;
+				   
+				   case '=': 
+				   
+				   get=x.value; //"11+23"
+				   result = eval(get);//34
+				   x.value=result;
+				   break;
+				   
+				  
+				   
+				   
+				   
+				 }
+			 
+			 
+			 
+			 }
+	 
+	 
+	 </script>
+
+</body>
+</html>
