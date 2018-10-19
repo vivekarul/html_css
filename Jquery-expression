@@ -1,0 +1,65 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<style>
+</style>
+<body>
+      Name:<input id="i1"> </input><br><br>
+      User:<input id="i2"><br><br>
+      Mobile:<input id="i3"><br><br>
+      Pass:<input id="i4"><br><br> 
+           <button>click</button>
+	  <p>Guhan </p>
+	 
+	  <script>
+	       $(function()
+		   {
+		    $("button").click(function()
+			{
+			/*  x=$("p").text();
+			    $("input").val(x);
+			*/
+			
+			/*  x=$("input").val();
+			    $("p").text(x);  */
+			a=$("#i1").val();
+			b=$("#i2").val();
+			c=$("#i3").val();
+			d=$("#i4").val();
+			e=$("#i5").val();
+			
+            if(a=="")
+            {
+			 alert("Enter name");
+			 return;
+			}
+			
+			y = /^[A-Za-z]+$/;
+			if (!y.test(a)) 
+			{
+			alert('Use only alphabets');
+			return;
+			}
+			
+			if(b=="")
+            {
+			 alert("Enter User");
+			 return;
+			}				
+			if(c=="")
+            {
+			 alert("Enter Mobile");
+			 return;
+			} 
+             if(d=="")
+            {
+			 alert("Enter Pass");
+			 return;
+			}				
+      		 });
+	  });
+	  
+</script>
+</body>
+</html>
